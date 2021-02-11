@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>iframe zoom meeting</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+<label>Meeting_id:</label> <input type="text" name="meeting_id" ng-model="meet_id" placeholder="meeting_id">
+<label>Password:</label> <input type="password" name="pass" ng-model="password" placeholder="meeting_password">
+<button><a href="file:///C:/Users/hp/New%20folder/CDN/meeting.html?" target="iframe_a">Join Meeting</a></button>
+<br>
+<br>
+<textarea id="sign"></textarea>
+<iframe allow="camera; microphone" name="iframe_a" height="500px" width="60%" title="Iframe Example" style="border-style: solid";></iframe>
+    <script src="js/index.js"></script>
+</body>
+</html>
