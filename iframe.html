@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <title>iframe meeting</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body>
+Name: <input type="text" name="name" ng-model="name">
+Meeting_id: <input type="text" name="meeting_id" ng-model="meet_id">
+Password: <input type="password" name="pass" ng-model="pwd">
+signature:<input type="text" name="sign" ng-model="sign">
+<button><a href="file:///C:/Users/hp/New%20folder/CDN_2nd/meeting.html?name={{name}}&mn={{meet_id}}&email=&pwd={{pwd}}&role=0&lang=en-US&signature={{sign}}&china=0&apiKey=34n5fY-dQAqLjcXZjosfyw" target="iframe_a">Join Meeting</a></button>
+<br>
+<br>
+<zoom-Meet></zoom-Meet>
+<script>
+  var app=angular.module('myApp',[]);
+  angular.
+  module('myApp').
+  component('zoomMeet', {
+  template: ' <iframe id="show" allow="camera; microphone" name="iframe_a" height="535px" width="60%" title="Iframe Example" style="border-style: solid";></iframe>',
+  });
+</script>
+</body>
+</html>
+<!--<iframe src="file:///C:/Users/hp/New%20folder/CDN_2nd/index.html" id="show" allow="camera; microphone" name="iframe_a" height="535px" width="60%" title="Iframe Example" style="border-style: solid";></iframe>'-->

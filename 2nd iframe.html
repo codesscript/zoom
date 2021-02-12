@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="componentApp">
+
+  <head>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+  </head>
+
+  <body ng-controller="componentController">
+  Meeting_id: <input type="text" name="meeting_id" ng-model="meet_id">
+Password: <input type="password" name="pass" ng-model="pwd">
+signature:<input type="text" name="sign" ng-model="sign">
+    <button ng-click="showComponent()" id="changeText">Show Component</button>
+    <div-content ng-if="isShowContent"></div-content>
+    <zoom-Meet  ng-if="isShowContent" meet="meet_id" pwd="pwd" sign="sign"></zoom-Meet>
+  <script>
+      angular.module("componentApp", [])
+       .controller("componentController", function($scope) {
+         $scope.isShowContent = false;
+         $scope.showComponent = function() {
+           $scope.isShowContent = !$scope.isShowContent;
+           };
+       })
+       .component("zoomMeet", {
+         template: '  meeting_id=={{$ctrl.meet}} password=={{$ctrl.pwd}} signature=={{$ctrl.sign}} <iframe src="file:///C:/Users/hp/New%20folder/CDN_2nd/meeting.html?name=sia&mn={{$ctrl.meet}}&email=&pwd={{$ctrl.pwd}}&role=0&lang=en-US&signature={{$ctrl.sign}}&china=0&apiKey=34n5fY-dQAqLjcXZjosfyw" id="show" allow="camera; microphone" name="iframe_a" height="535px" width="60%" title="Iframe Example" style="border-style: solid";></iframe>',
+         bindings: {
+          meet: '<',
+          pwd:'<',
+          sign:'<'
+                 }
+  });
+  </script>
+  </body>
+
+</html>
