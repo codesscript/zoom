@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f75cc012-14ec-46e9-9d58-256826041bc0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CDN_2nd/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/.idea/2nd.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/.idea/2nd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/iframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/js/meeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/js/meeting.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CDN_2nd/sign.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CDN_2nd/sign.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_meet.py" beforeDir="false" afterPath="$PROJECT_DIR$/create_meet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/meeting.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/meeting.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1opMnKdfW3AjD8bXnEiEEZM8IWT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/zoomus" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f75cc012-14ec-46e9-9d58-256826041bc0" name="Default Changelist" comment="" />
+      <created>1613979244147</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613979244147</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

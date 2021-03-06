@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="componentApp" >
+<head>
+    <meta charset="UTF-8">
+    <title>iframe-component</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+       </head>
+<body>
+<div ng-controller="componentController">
+    Name: <input type="text" name="name" ng-model="name">
+    Meeting_id: <input type="text" name="meeting_id" ng-model="meet_id">
+Password: <input type="password" name="pass" ng-model="pwd">
+signature:<input type="text" name="sign" ng-model="sign">
+    <button ng-click="showComponent()" id="changeText">Show Component</button>
+    {{isShowContent}}
+    <zoom-Meet  ng-if="isShowContent" meet="meet_id" pwd="pwd" sign="sign" name="name"></zoom-Meet>
+</div>
+<script src="js/index.js"></script>
+<script src="js/zoomDetail.js"></script>
+</body>
+</html>
