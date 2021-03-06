@@ -76,11 +76,13 @@ Documentation for JWT is available [here](https://marketplace.zoom.us/docs/guide
 
 For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
 
+## Get zoom API key
+   blog of get API key: https://elearningevolve.com/blog/zoom-api-keys/
 ## Init Zoom Meeting
-help to hide invite,screen share ect.https://zoom.github.io/sample-app-web/ZoomMtg.html#init
+   help to hide invite,screen share etc:https://zoom.github.io/sample-app-web/ZoomMtg.html#init
 
 ## create zoom meeting
-Documentation for create zoom meeting https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingcreate
+   Documentation for create zoom meeting:https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingcreate
 
 ## create zoom meeting with API and Python
 https://github.com/prschmid/zoomus
