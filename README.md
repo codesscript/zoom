@@ -76,7 +76,7 @@ Documentation for JWT is available [here](https://marketplace.zoom.us/docs/guide
 
 For any questions or issues, please visit our new Community Support Forum at https://devforum.zoom.us/
 
-##Init Zoom Meeting
+## Init Zoom Meeting
 help to hide invite,screen share ect.https://zoom.github.io/sample-app-web/ZoomMtg.html#init
 
 
