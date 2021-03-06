@@ -79,7 +79,11 @@ For any questions or issues, please visit our new Community Support Forum at htt
 ## Init Zoom Meeting
 help to hide invite,screen share ect.https://zoom.github.io/sample-app-web/ZoomMtg.html#init
 
+## create zoom meeting
+Documentation for create zoom meeting https://marketplace.zoom.us/docs/api-reference/zoom-api/meetings/meetingcreate
 
+## create zoom meeting with API and Python
+https://github.com/prschmid/zoomus
 
 
 
